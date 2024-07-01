@@ -1,0 +1,9 @@
+# Escribir reseña en un comercio
+POST http://localhost:3000/api/comercios/12345678A/reviews
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2ODFlZDVhZDJlY2U2NGY2MzAwMjRiYiIsImVtYWlsIjoidXN1YXJpb0BleGFtcGxlLmNvbSIsImlhdCI6MTcxOTgxODE0MiwiZXhwIjoxNzE5ODIxNzQyfQ.mruU1WVbzssTNA98idD4lOpGxypsDePjfv-kZ-PF1_g
+
+{
+    "comentario": "Reseña del comentario",
+    "calificacion": 5
+}
